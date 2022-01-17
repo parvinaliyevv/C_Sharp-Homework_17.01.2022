@@ -21,7 +21,7 @@ namespace NotificationNamespace
 
         public override string ToString()
         {
-            return String.Format("From User: {0}\nText: {1}", FromUser, Text);
+            return String.Format("Date Time: {0}\nFrom User: {1}\nText: {2}",Datetime, FromUser, Text);
         }
     }
 }

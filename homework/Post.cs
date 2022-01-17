@@ -17,7 +17,7 @@ namespace PostNamespace
 
         public override string ToString()
         {
-            return String.Format("ID: {0}\nLike Count: {1}\nView Count: {2}\nContent: {3}", ID, LikeCount, ViewCount, Content);
+            return String.Format("Creation Date Time: {0}\nID: {1}\nLike Count: {2}\nView Count: {3}\nContent: {4}", CreationeDateTime, ID, LikeCount, ViewCount, Content);
         }
     }
 }
